@@ -35,9 +35,9 @@
 
 <!-- @vuese:ChipsInput:slots:start -->
 
-| Name      | Description                                 | Default Slot Content   |
-| --------- | ------------------------------------------- | ---------------------- |
-| default   | for rendering custom chip content           | `chip.value \|\| chip` |
-| closeIcon | for rendering custom icon for removing chip | `<i\>&times;</i\>`     |
+| Name       | Description                                 | Default Slot Content   |
+| ---------- | ------------------------------------------- | ---------------------- |
+| default    | for rendering custom chip content           | `chip.value \|\| chip` |
+| removeIcon | for rendering custom icon for removing chip | `<i\>&times;</i\>`     |
 
 <!-- @vuese:ChipsInput:slots:end -->
