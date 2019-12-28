@@ -23,7 +23,7 @@
           @click="removeChip(index)"
           tabindex="-1"
         >
-          <slot name="closeIcon">
+          <slot name="removeIcon">
             <i>&times;</i>
           </slot>
         </button>
@@ -228,7 +228,7 @@ export default {
   background-color: #0c4dc7;
   color: #ffffff;
   border-radius: 100px;
-  cursor: auto;
+  cursor: default;
 
   &:focus,
   &:hover {
@@ -259,7 +259,9 @@ export default {
   background-color: transparent;
   border: none;
   line-height: 1;
+  cursor: pointer;
   outline: none;
+
   i {
     font-size: 16px;
     border-radius: 50%;
@@ -268,6 +270,7 @@ export default {
     display: block;
     width: 16px;
     height: 16px;
+    font-style: normal;
   }
 }
 
@@ -277,6 +280,6 @@ export default {
   outline: none;
   padding: 4px;
   margin: 4px;
-  min-width: 80px;
+  min-width: 100px;
 }
 </style>
